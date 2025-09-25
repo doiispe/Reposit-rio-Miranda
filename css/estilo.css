@@ -283,3 +283,51 @@ transform: scale(1.3) translateY(.5px);
 background-color: #000000;
 box-shadow: 0 0 5px rgb(0, 0, 0);
 }
+.eec {
+    background-color: rgb(156, 156, 156);
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.entreem {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.entreem label {
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.entreem input,
+.entreem textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+}
+.entreem p{
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+
+.botao {
+    background-color: rgb(156, 156, 156);
+    border: 2px solid black;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+form{
+    width: 50%;
+}
